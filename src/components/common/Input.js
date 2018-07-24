@@ -14,7 +14,7 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
         style={inputStyle}
         value={value}
         onChangeText={onChangeText}
-        style={{ height: 20, width: 100}}
+        style={inputStyle}
        />
     </View>
   )
